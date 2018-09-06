@@ -9,6 +9,8 @@ Portfolio Section
 }
 
 #Portfolio {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
     background-color: white;
 }
 body{
@@ -28,7 +30,15 @@ body{
 }
 
 .lead1 {
-    background:url("../assets/img/Capture.PNG");
+    height:200px;
+    background-size: contain;
+    background-repeat:no-repeat;
+    font-weight:bold;
+    text-align:center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.lead2 {
     height:200px;
     background-size: contain;
     background-repeat:no-repeat;
@@ -36,17 +46,7 @@ body{
     text-align:center;
 }
 
-.lead2 {
-    background:url("../assets/img/Computer.jpg");
-    height:200px;
-    background-size: cover;
-    background-repeat:no-repeat;
-    font-weight:bold;
-    text-align:center;
-}
-
 .lead3 {
-    background:url("../assets/img/Computer.jpg");
     height:200px;
     background-size: cover;
     background-repeat:no-repeat;
@@ -58,6 +58,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    text-align: center;
 }
 
 .project {
@@ -71,6 +72,7 @@ body{
     top:1em;
     left:5em;
     color:black;
+    margin:auto;
 }
 
 .icons {

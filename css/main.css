@@ -11,6 +11,10 @@ Navbar Section
   color: whitesmoke;
   background-color: black; }
 
+.texting {
+  float: left;
+  left: 0px; }
+
 /* CSS code for the Header section. */
 #main-header {
   background-size: cover;
@@ -21,7 +25,20 @@ Navbar Section
   border-top: 3px ridge;
   background: url("../assets/img/computer_code.jpg");
   background-size: cover;
-  height: 330px; }
+  height: 330px;
+  text-decoration: white;
+  font-size: 70px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  color: white;
+  opacity: .8; }
+
+.texting {
+  color: white;
+  font-size: 30px; }
+
+#heads {
+  opacity: 9.0; }
 
 /* ------------------------------
 Portfolio Section
@@ -30,6 +47,8 @@ Portfolio Section
   vertical-align: middle; }
 
 #Portfolio {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
   background-color: white; }
 
 body {
@@ -47,23 +66,21 @@ body {
   margin-left: 50%; }
 
 .lead1 {
-  background: url("../assets/img/Capture.PNG");
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif; }
+
+.lead2 {
   height: 200px;
   background-size: contain;
   background-repeat: no-repeat;
   font-weight: bold;
   text-align: center; }
 
-.lead2 {
-  background: url("../assets/img/Computer.jpg");
-  height: 200px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-weight: bold;
-  text-align: center; }
-
 .lead3 {
-  background: url("../assets/img/Computer.jpg");
   height: 200px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -73,7 +90,8 @@ body {
 #projectRow {
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  justify-content: center;
+  text-align: center; }
 
 .project {
   display: flex;
@@ -84,7 +102,8 @@ body {
   position: relative;
   top: 1em;
   left: 5em;
-  color: black; }
+  color: black;
+  margin: auto; }
 
 .icons {
   background: url("../assets/img/CSS.PNG");
