@@ -1,0 +1,44 @@
+
+/****************************
+About Section
+****************************/
+#about{
+    opacity: 0.9;
+    background:url("../assets/img/book_blank.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:500px;  
+    
+}
+#big{
+    position:relative;
+    right:28em;
+    top:45px;
+    
+}
+
+.story{
+    margin-right:0em;
+    font-size:30px;
+}
+
+.abouts{
+    position:relative;
+    top:5em;
+    margin:auto;
+    left:3em;
+}
+
+.aboutz{
+    position:relative;
+    top:55px;
+    right:-30em;
+    margin:auto;
+}
+
+#hobbys{
+    position:absolute;
+    top:20px;
+    right: 10em;;
+    margin:auto;
+}

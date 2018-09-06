@@ -1,0 +1,131 @@
+/* ------------------------------
+Portfolio Section
+--------------------------------*/
+
+
+.content {
+    vertical-align: middle;
+    
+}
+
+#Portfolio {
+    background-color: white;
+}
+body{
+    margin:0px;
+}
+
+.change {
+    width:300px;
+    height:350px;
+    border-radius:50%;
+    text-decoration-color: black;
+    line-height:70px;
+    text-align:center;
+    margin-right:60px;
+    vertical-align:center;
+    margin-left:50%;
+}
+
+.lead1 {
+    background:url("../assets/img/Capture.PNG");
+    height:200px;
+    background-size: contain;
+    background-repeat:no-repeat;
+    font-weight:bold;
+    text-align:center;
+}
+
+.lead2 {
+    background:url("../assets/img/Computer.jpg");
+    height:200px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    font-weight:bold;
+    text-align:center;
+}
+
+.lead3 {
+    background:url("../assets/img/Computer.jpg");
+    height:200px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    font-weight:bold;
+    vertical-align: middle;
+}
+
+#projectRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project {
+    display: flex;
+    margin: 1em;
+    width: 20em;
+}
+
+.text{
+    position:relative;
+    top:1em;
+    left:5em;
+    color:black;
+}
+
+.icons {
+    background:url("../assets/img/CSS.PNG");
+    height:200px;
+    background-size: contain;
+    background-repeat:no-repeat;
+    font-weight:bold;
+    text-align:center;
+    width:60px;
+    height:60px;
+}
+.icons2 {
+    background:url("../assets/img/html-512.png");
+    height:200px;
+    background-size: contain;
+    background-repeat:no-repeat;
+    font-weight:bold;
+    text-align:center;
+    width:60px;
+    height:60px;
+}
+.icons1 {
+    background:url("../assets/img/Csharp.jpg");
+    height:200px;
+    background-size: contain;
+    background-repeat:no-repeat;
+    font-weight:bold;
+    text-align:center;
+    width:60px;
+    height:60px;
+}
+
+.No{
+    font-size:22px;
+    font-weight:bold;
+}
+.icons3 {
+    background:url("../assets/img/Github.jpg");
+    height:200px;
+    background-size: contain;
+    background-repeat:no-repeat;
+    font-weight:bold;
+    text-align:center;
+    width:60px;
+    height:60px;
+}
+
+.icons4 {
+    background:url("../assets/img/Frame.jpg");
+    height:200px;
+    background-size: contain;
+    background-repeat:no-repeat;
+    font-weight:bold;
+    text-align:center;
+    width:60px;
+    height:60px;
+}

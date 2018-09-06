@@ -1,0 +1,185 @@
+/* Variables used throughout will go here. */
+/****************************
+Body Section
+****************************/
+/* ------------------------------
+Navbar Section
+--------------------------------*/
+#myNav {
+  margin: 0;
+  height: 60px;
+  color: whitesmoke;
+  background-color: black; }
+
+/* CSS code for the Header section. */
+#main-header {
+  background-size: cover;
+  margin-top: 0%;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-top: 3px ridge;
+  background: url("../assets/img/computer_code.jpg");
+  background-size: cover;
+  height: 330px; }
+
+/* ------------------------------
+Portfolio Section
+--------------------------------*/
+.content {
+  vertical-align: middle; }
+
+#Portfolio {
+  background-color: white; }
+
+body {
+  margin: 0px; }
+
+.change {
+  width: 300px;
+  height: 350px;
+  border-radius: 50%;
+  text-decoration-color: black;
+  line-height: 70px;
+  text-align: center;
+  margin-right: 60px;
+  vertical-align: center;
+  margin-left: 50%; }
+
+.lead1 {
+  background: url("../assets/img/Capture.PNG");
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  text-align: center; }
+
+.lead2 {
+  background: url("../assets/img/Computer.jpg");
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  text-align: center; }
+
+.lead3 {
+  background: url("../assets/img/Computer.jpg");
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  vertical-align: middle; }
+
+#projectRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.project {
+  display: flex;
+  margin: 1em;
+  width: 20em; }
+
+.text {
+  position: relative;
+  top: 1em;
+  left: 5em;
+  color: black; }
+
+.icons {
+  background: url("../assets/img/CSS.PNG");
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  text-align: center;
+  width: 60px;
+  height: 60px; }
+
+.icons2 {
+  background: url("../assets/img/html-512.png");
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  text-align: center;
+  width: 60px;
+  height: 60px; }
+
+.icons1 {
+  background: url("../assets/img/Csharp.jpg");
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  text-align: center;
+  width: 60px;
+  height: 60px; }
+
+.No {
+  font-size: 22px;
+  font-weight: bold; }
+
+.icons3 {
+  background: url("../assets/img/Github.jpg");
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  text-align: center;
+  width: 60px;
+  height: 60px; }
+
+.icons4 {
+  background: url("../assets/img/Frame.jpg");
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  text-align: center;
+  width: 60px;
+  height: 60px; }
+
+/****************************
+About Section
+****************************/
+#about {
+  opacity: 0.9;
+  background: url("../assets/img/book_blank.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px; }
+
+#big {
+  position: relative;
+  right: 28em;
+  top: 45px; }
+
+.story {
+  margin-right: 0em;
+  font-size: 30px; }
+
+.abouts {
+  position: relative;
+  top: 5em;
+  margin: auto;
+  left: 3em; }
+
+.aboutz {
+  position: relative;
+  top: 55px;
+  right: -30em;
+  margin: auto; }
+
+#hobbys {
+  position: absolute;
+  top: 20px;
+  right: 10em;
+  margin: auto; }
+
+/* CSS code for the Contact section. */
+#Contact {
+  background: url("../assets/img/back.jpg");
+  border-top: solid 5px black; }
+
+/* CSS code for the Footer section. */
