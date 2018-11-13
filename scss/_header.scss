@@ -1,14 +1,23 @@
 /* CSS code for the Header section. */
  #main-header{
-    background-size:cover;
-    margin-top: 0%;
-    background:url("../assets/img/computer_code.jpg");
-    background-size:cover;
-    height:330px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background:url("../assets/img/pexels-photo-574073.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
     font-size:70px;
-    font-style: italic;
-    opacity: .8;
-    text-shadow: 5px 0 0 green, -2px 0 0 green, 0 2px 0 green, 0 -2px 0 green, 1px 1px green, -1px -1px 0 green, 1px -1px 0 green, -1px 1px 0 green;
+    opacity:.9
+    // background-size:contain;
+    // margin-top: 0%;
+    // background:url("../assets/img/pexels-photo-574073.jpeg");
+    // height:330px;
+    // font-size:70px;
+    // font-style: italic;
 }
 .texting{
     color:white;
